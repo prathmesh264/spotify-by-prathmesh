@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background:linear-gradient(to bottom,indigo,lightpink);
+}
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+nav ul{
+    display: flex;
+    list-style-type:none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.brand img{
+    width: 60px;
+    padding-right: 8px;
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+    
+}
+
+nav ul li{
+    padding:0px 12px;
+}
+
+.container{
+    min-height: 62vh;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 30px;
+    padding: 34px;
+    background-image: url(cover/b-1.jpg);
+    background-repeat:no-repeat;
+
+}
+
+.bottom{
+    position: sticky;
+    height: 125px;
+    background-color:black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top: 17px;
+}
+.icons i{
+    cursor: pointer;
+}
+i.on{
+    cursor: pointer;
+}
+
+.on{
+    padding: 0px 13px;
+}
+
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+.songItemContainer{
+    margin-top: 15px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 85%;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+
+.songItem img{
+    width: 60px;
+    margin-left: 12px;
+    border-radius: 25%;
+
+
+}
+
+.songInfo{
+    float: right;
+    position: absolute;
+    left:15vw;
+    margin-top: 8px;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    padding-right: 2px;
+}
+
+.by{
+    margin-left: auto;
+    color: antiquewhite;
+    
+}
+img{
+    padding-right: 3px;
+}
+
+
+@media screen and (max-width:400px) {
+    .songItem{
+        height: 50px;
+        display: flex;
+        background-color: white;
+        color: black;
+        width: 80%;
+        margin: 15px 0px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px;
+    
+    
+    }
+    .songItem img{
+        width: 60px;
+        margin: 0px 8px;
+        border-radius: 25%;
+    
+    
+    }
+    .span{
+        height: 50px;
+        display: flex;
+        background-color: white;
+        color: black;
+        width: 80%;
+        margin: 15px 0px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 5px;
+        padding: 0px  5px;
+
+    }
+    .bottom{
+        position: sticky;
+        height: 125px;
+        background-color: black;
+        color: white;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .songInfo{
+        float: right;
+    }
+    img{
+        padding-right: 6px;
+    }
+
+    .songInfo{
+        float: right;
+        position: absolute;
+        left:0vw;
+        margin-top:5px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    .songInfo img {
+        opacity: 0;
+        transition: opacity 0.4s ease-in;
+        padding-right: 2px;
+    }
+
+    .on{
+        padding: 0px 4px;
+    }
+    #gif{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+        margin-left: 8px;
+    }
+    .icons{
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+
+    .bottom{
+        position: sticky;
+        height: 125px;
+        background-color: black;
+        color: white;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    #mastersongname{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+        margin-left: 8px;
+        
+    }
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

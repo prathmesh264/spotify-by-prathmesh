@@ -232,7 +232,7 @@ document.getElementById('2').addEventListener('click', ()=>{
         else{
             songIndex -= 1;
         }
-        audioElement.src = 'song/$.mp3';
+        audioElement.src = 'song/3.mp3';
         audioElement.currentTime = 0;
         audioElement.play();
         gif.style.opacity = 1;
